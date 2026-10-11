@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About | Dermify</title>
+  <meta name="description" content="About the Dermify educational project.">
+  <!-- Bootstrap 5 + Bootstrap Icons + Google Fonts (loaded from the internet) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-page="about">
+  <!-- Navbar is built by js/app.js -->
+  <div id="navbar"></div>
+
+  <main>
+
+    <section class="page-header">
+      <div class="container">
+        <span class="eyebrow">About</span>
+        <h1 class="mt-2">About Dermify</h1>
+        <p class="text-muted" style="max-width:42rem">Hi, I'm Warisha Shahid, a Software Engineering student passionate about AI, web development, and technology. Dermify is an educational skincare recommendation project developed to demonstrate Java OOP concepts, frontend development, and problem-solving skills.</p>
+      </div>
+    </section>
+
+    <section class="pt-0">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-6 reveal"><div class="glass p-4 h-100">
+            <h2 class="h4">Educational purpose</h2>
+            <p>This project exists to practise web development, object-oriented programming, and basic data structures and algorithms.</p>
+            <div class="alert glass-alert mb-0"><i class="bi bi-exclamation-circle"></i> Dermify does <strong>not</strong> diagnose skin conditions or give medical advice. Recommendations are educational and not medical advice. For skin concerns, please talk to a qualified professional.</div>
+          </div></div>
+          <div class="col-lg-6 reveal"><div class="glass p-4 h-100">
+            <h2 class="h4">How the Skin Finder works</h2>
+            <div class="d-flex gap-3 mb-3"><div class="step-num">1</div><div>You choose one or more concerns, like Acne or Dry Skin.</div></div>
+            <div class="d-flex gap-3 mb-3"><div class="step-num">2</div><div>Every product has tags. We score each product by how many chosen concerns match its tags.</div></div>
+            <div class="d-flex gap-3"><div class="step-num">3</div><div>Matching products are sorted (best score first, then lower price) and the rule used is explained.</div></div>
+          </div></div>
+        </div>
+
+        <h2 class="h3 mt-5 mb-3">Technologies used</h2>
+        <div class="glass p-4 reveal">
+          <span class="tech-chip">HTML5</span><span class="tech-chip">CSS3</span><span class="tech-chip">JavaScript (ES6)</span>
+          <span class="tech-chip">Bootstrap 5</span><span class="tech-chip">Bootstrap Icons</span>
+          <span class="tech-chip">Java 17+</span><span class="tech-chip">OOP</span>
+          <span class="tech-chip">ArrayList &amp; HashMap</span><span class="tech-chip">Linear search</span><span class="tech-chip">Selection sort</span>
+        </div>
+
+        <h2 class="h3 mt-5 mb-3">Team</h2>
+        <div class="row g-4">
+          <div class="col-6 col-lg-3 reveal"><div class="glass team-card"><div class="avatar"><i class="bi bi-person"></i></div><h3 class="h6 mb-0">Your Name</h3><p class="small text-muted mb-0">Developer &amp; Designer</p></div></div>
+          <div class="col-6 col-lg-3 reveal"><div class="glass team-card"><div class="avatar"><i class="bi bi-person"></i></div><h3 class="h6 mb-0">Team Member 2</h3><p class="small text-muted mb-0">Role placeholder</p></div></div>
+          <div class="col-6 col-lg-3 reveal"><div class="glass team-card"><div class="avatar"><i class="bi bi-person"></i></div><h3 class="h6 mb-0">Team Member 3</h3><p class="small text-muted mb-0">Role placeholder</p></div></div>
+          <div class="col-6 col-lg-3 reveal"><div class="glass team-card"><div class="avatar"><i class="bi bi-person"></i></div><h3 class="h6 mb-0">Team Member 4</h3><p class="small text-muted mb-0">Role placeholder</p></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer is built by js/app.js -->
+  <div id="footer"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

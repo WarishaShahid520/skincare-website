@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "Gentle Foam Cleanser",
+    "category": "Cleanser",
+    "price": 12,
+    "inStock": true,
+    "description": "Soft daily foaming wash.",
+    "tags": [
+      "sensitive",
+      "combination",
+      "oily"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Hydra Cream Cleanser",
+    "category": "Cleanser",
+    "price": 14.5,
+    "inStock": true,
+    "description": "Creamy cleanser that leaves skin comfortable.",
+    "tags": [
+      "dry",
+      "sensitive"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Clear Balance Gel Cleanser",
+    "category": "Cleanser",
+    "price": 11,
+    "inStock": true,
+    "description": "Light gel wash for blemish-prone skin.",
+    "tags": [
+      "acne",
+      "oily"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Barrier Moisture Cream",
+    "category": "Moisturizer",
+    "price": 18,
+    "inStock": true,
+    "description": "Rich cream with ceramides.",
+    "tags": [
+      "dry",
+      "sensitive"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Oil-Free Gel Moisturizer",
+    "category": "Moisturizer",
+    "price": 16,
+    "inStock": true,
+    "description": "Water-light gel hydration.",
+    "tags": [
+      "oily",
+      "combination",
+      "acne"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Daily Shield SPF 50",
+    "category": "Sunscreen",
+    "price": 19,
+    "inStock": true,
+    "description": "Broad-spectrum daily sunscreen.",
+    "tags": [
+      "darkspots",
+      "combination",
+      "oily"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Mineral Calm SPF 40",
+    "category": "Sunscreen",
+    "price": 21,
+    "inStock": false,
+    "description": "Mineral sunscreen for sensitive skin.",
+    "tags": [
+      "sensitive",
+      "darkspots"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Niacinamide 10% Serum",
+    "category": "Serum",
+    "price": 13,
+    "inStock": true,
+    "description": "Lightweight serum for a balanced look.",
+    "tags": [
+      "oily",
+      "acne",
+      "combination",
+      "darkspots"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Hyaluronic Boost Serum",
+    "category": "Serum",
+    "price": 15,
+    "inStock": true,
+    "description": "Hydrating serum with hyaluronic acid.",
+    "tags": [
+      "dry",
+      "combination",
+      "sensitive"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Brightening Vitamin C Serum",
+    "category": "Serum",
+    "price": 24,
+    "inStock": true,
+    "description": "Vitamin C serum for an even-looking tone.",
+    "tags": [
+      "darkspots"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Spot Care Gel",
+    "category": "Acne Treatment",
+    "price": 10,
+    "inStock": true,
+    "description": "Targeted gel for occasional blemishes.",
+    "tags": [
+      "acne",
+      "oily"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Clarifying Salicylic Lotion",
+    "category": "Acne Treatment",
+    "price": 17,
+    "inStock": true,
+    "description": "Leave-on lotion with 2% salicylic acid.",
+    "tags": [
+      "acne",
+      "oily",
+      "combination"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Soothe Fragrance-Free Lotion",
+    "category": "Sensitive Skin Care",
+    "price": 15.5,
+    "inStock": true,
+    "description": "Fragrance-free lotion for easily irritated skin.",
+    "tags": [
+      "sensitive",
+      "dry"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Calm Centella Cream",
+    "category": "Sensitive Skin Care",
+    "price": 20,
+    "inStock": true,
+    "description": "Calming cream with centella extract.",
+    "tags": [
+      "sensitive",
+      "acne"
+    ]
+  }
+]
